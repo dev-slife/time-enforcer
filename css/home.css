@@ -10,6 +10,21 @@ div div{
     border: solid black 2px;
 }
 
+img {
+    margin-bottom: 2%;
+}
+
+h4 {
+    margin: 3% 2% 2% 2%;
+}
+
+#flush_left {
+    display: inline-block;
+    text-align: left;
+    padding-left: 0;
+    margin: 1%;
+}
+
 
 /* team_info id */
 #team_info ul {
@@ -30,10 +45,37 @@ div div{
 }
 
 
-/* research class */
-#flush_left {
-    display: inline-block;
+/* visualization id */
+#visualizations {
+    padding: 2%;
+    margin: 2% 20% 0% 20%;
+    background-color: #2b53a4;
+    border: solid black 2px;
+}
+
+
+/* personas class */
+.personas div {
+    padding: 2%;
+    margin: 2% 20% 0% 20%;
+    background-color: #2b53a4;
+    border: solid black 2px;
     text-align: left;
-    padding-left: 0;
-    margin: 1%;
+}
+
+.personas p {
+    margin: 0% 0% 0% 2%;
+}
+
+.personas ul {
+    margin: 0% 0% 0% 5%;
+}
+
+.personas img {
+    vertical-align: middle;
+    margin: 0px 5px 10px 0px;
+}
+
+.personas h4 {
+    margin: 2% 2% 1% 2%;
 }

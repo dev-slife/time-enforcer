@@ -2,6 +2,7 @@
     /* COLOR */
     --primary-color: #e0e3e8;
     --secondary-color: #b2b5bb;
+    --link-color: #e9c836;
 
     --bkg-gradient: linear-gradient(#4473d0, #7890bc);
 
@@ -13,19 +14,20 @@
     --h1-size: 64px;
     --h2-size: 40px;
     --h3-size: 24px;
+    --h4-size: 18px;
 }
 
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html,
 body {
-  height: 100%;
-  height: 100%;
+    height: 100%;
+    height: 100%;
 }
 
 
@@ -47,16 +49,25 @@ footer {
 
 
 h1 {
-  font-size: var(--h1-size);
-  margin: 3%;
+    font-size: var(--h1-size);
+    margin: 3%;
 }
 
 h2 {
-  font-size: var(--h2-size);
-  margin: 2%;
+    font-size: var(--h2-size);
+    margin: 2%;
 }
 
 h3 {
-  font-size: var(--h3-size);
-  margin: 1%;
+    font-size: var(--h3-size);
+    margin: 1%;
+}
+
+h4 {
+    font-size: var(--h4-size);
+    margin: 1%;
+}
+
+a {
+    color: var(--link-color);
 }
